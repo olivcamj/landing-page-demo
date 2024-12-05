@@ -1,9 +1,9 @@
 import React from 'react';
 import {Footer, Blog, Possibility, Features, WhatGPT3, Header} from './containers/index';
 import { Brand, CTA, Navbar } from './components/index';
-import './App.css'
+import './App.css';
 
-  ; const App = () => {
+const App = () => {
   return (
     <div>
       <div className="App">
@@ -18,7 +18,7 @@ import './App.css'
         <CTA />
         <Blog />
         <Footer />
-        </div>
+        </div> 
     </div>
   )
 }
