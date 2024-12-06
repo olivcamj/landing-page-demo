@@ -24,7 +24,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <div className="gpt3__features section__margin" id="features">
+    <section className="gpt3__features section__margin" id="features">
       <div className="gpt3__features-heading">
         <h1 className="gradient__text">The Future is Now & You Just Need to Realize It. Step into the Future Today & Make it Happen.</h1>
         <p className="gpt3__features-heading_subheading">Request Early Access to Get Started</p>
@@ -36,7 +36,7 @@ const Features = () => {
           )
         }
       </div>
-    </div>
+    </section>
   )
 }
 

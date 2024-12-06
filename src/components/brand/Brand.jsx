@@ -10,7 +10,7 @@ import './brand.css';
 
 const Brand = () => {
   return (
-    <div className="gpt3__brand section__padding">
+    <section className="gpt3__brand section__padding">
       <div>
         <img src={google} alt="google" />
       </div>
@@ -26,7 +26,7 @@ const Brand = () => {
       <div>
         <img src={shopify} alt="shopify" />
       </div>
-    </div>
+    </section>
   )
 }
 

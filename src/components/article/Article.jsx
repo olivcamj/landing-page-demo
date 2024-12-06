@@ -3,7 +3,7 @@ import './article.css';
 
 const Article = ({ imgUrl, date, title }) => {
   return (
-    <section className="gpt3__blog-container_article">
+    <article className="gpt3__blog-container_article">
       <div className="gpt3__blog-container_article">
         <img src={imgUrl} alt="blog" />
       </div>
@@ -14,7 +14,7 @@ const Article = ({ imgUrl, date, title }) => {
         </div>
       </div>
       <p>Read Full Article</p>
-    </section>
+    </article>
   )
 }
 

@@ -4,7 +4,7 @@ import './possibility.css';
 
 const Possibility = () => {
   return (
-    <div className="gpt3__possibility section__margin" id="possibility">
+    <section className="gpt3__possibility section__margin" id="possibility">
       <div className="gpt3__possibility_image-container">
         <img src={possibilityImage} alt="possibility" className="gpt3__possibility-image"/>
       </div>
@@ -14,7 +14,7 @@ const Possibility = () => {
         <p></p>
         <h4>Request Early Access to Get Started </h4>
       </div>
-    </div>
+    </section>
   )
 }
 
