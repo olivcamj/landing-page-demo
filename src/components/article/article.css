@@ -55,7 +55,7 @@
 }
 
 .article__text:last-child {
-  max-width: 55%;
+  max-width: 60%;
   cursor: pointer;
   color: #fff;
   opacity: 1;
