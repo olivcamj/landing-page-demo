@@ -3,16 +3,16 @@ import './article.css';
 
 const Article = ({ imgUrl, date, title }) => {
   return (
-    <article className="gpt3__blog-container_article">
-      <div className="gpt3__blog-container_article">
-        <img src={imgUrl} alt="blog" />
+    <article className="article">
+      <div className="article__image-container">
+        <img src={imgUrl} alt="blog"  className="article__image"/>
       </div>
-      <div className="gpt3__blog-container_article-content">
+      <div className="article__content">
         <div>
-          <p>{ date} </p>
-          <h3>{ title}</h3>
+          <p className="article__text">{ date} </p>
+          <h3 className="article__title">{ title}</h3>
         </div>
-        <p>Read Full Article</p>
+        <p className="article__text">Read Full Article</p>
       </div>
     </article>
   )
